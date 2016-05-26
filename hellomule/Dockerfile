@@ -3,7 +3,7 @@
 #Adapted from guide at https://blog.codecentric.de/en/2014/10/dockerizing-mule-esb-enterprise/
 
 FROM 		mule-ce:3.7.0
-MAINTAINER 	Mike Moore <moore.mike@gmail.comm>
+MAINTAINER 	Mike Moore <moore.mike@gmail.com>
 
 COPY		./hellomule.zip ${MULE_BASE}/apps/
 
